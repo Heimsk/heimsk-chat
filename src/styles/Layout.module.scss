@@ -1,0 +1,25 @@
+#container {
+    padding: 20px;
+    background-color: var(--secondary);
+
+    #inner__container {
+        width: calc(100vw - 40px);
+        height: calc(100vh - 40px);
+        position: relative;
+
+        .flex {
+            display: flex;
+            height: calc(100vh - 40px);
+        }
+
+        .full {
+            width: 100%;
+        }
+
+        .column {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+        }
+    }
+}

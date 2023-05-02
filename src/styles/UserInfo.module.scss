@@ -1,0 +1,46 @@
+#container {
+    width: 230px;
+    height: 70px;
+    margin-top: 20px;
+    background-color: var(--quaternary);
+    border-radius: 14px;
+    padding: 10px;
+    display: flex;
+
+    #avatar {
+        min-width: 50px;
+        min-height: 100%;
+        background-color: var(--primary);
+        border-radius: 14px;
+        margin-right: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        & > div {
+            width: 35px;
+            height: 35px;
+            border-radius: 50%;
+            background-color: var(--discord);
+        }
+    }
+
+    #infos {
+        display: flex;
+        flex-direction: column;
+        border-radius: 14px;
+        background-color: var(--primary);
+        height: 100%;
+        width: 100%;
+        color: white;
+        justify-content: center;
+        padding-left: 10px;
+        font-weight: bold;
+
+        & > small {
+            color: gray;
+            font-size: 15px;
+            font-weight: normal;
+        }
+    }
+}

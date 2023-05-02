@@ -1,0 +1,12 @@
+#container {
+    min-width: 230px;
+    height: 40px;
+    background-color: var(--quaternary);
+    border-radius: 14px;
+    margin-left: 20px;
+    transition: all 250ms;
+
+    &:hover {
+        min-width: 400px;
+    }
+}

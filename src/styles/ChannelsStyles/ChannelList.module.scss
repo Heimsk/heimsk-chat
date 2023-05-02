@@ -1,0 +1,15 @@
+#container {
+  width: 100%;
+  height: calc(100% - 60px);
+  background-color: var(--quaternary);
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 14px;
+  color: var(--gray);
+  overflow: auto;
+  padding: 5px 0;
+
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}

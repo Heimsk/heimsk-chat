@@ -1,0 +1,55 @@
+#container {
+  width: 100%;
+  height: auto;
+
+  &:not(:first-child) {
+    margin-top: 10px;
+  }
+
+  #label {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+    font-weight: bold;
+    cursor: pointer;
+    padding-right: 10px;
+
+    &:hover div {
+      color: white;
+    }
+
+    & > div {
+      width: 100%;
+      padding: 10px;
+
+      i {
+        margin-right: 5px;
+        font-size: 9px;
+
+        &.rotate > svg {
+          transform: rotate(-90deg);
+        }
+      }
+    }
+
+    & > i {
+      display: flex;
+      align-items: center;
+      font-size: 13px;
+
+      &:hover {
+        color: white;
+      }
+    }
+  }
+
+  #channels {
+    display: flex;
+    flex-direction: column;
+    padding: 0 10px;
+  }
+}

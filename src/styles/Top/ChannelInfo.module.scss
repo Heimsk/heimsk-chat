@@ -1,0 +1,21 @@
+.container {
+    width: 100% !important;
+    min-height: 40px;
+    background-color: var(--quaternary);
+    border-radius: 14px;
+    transition: all 250ms;
+    color: white;
+    padding: 0 10px;
+    font-size: 15px;
+
+    &, i {
+        display: flex;
+        align-items: center;
+    }
+
+    i {
+        color: var(--gray);
+        font-size: 22px;
+        margin-right: 10px;
+    }
+}
