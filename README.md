@@ -1,4 +1,4 @@
-# Clone do Discord v2
+# Heimsk Chat
 
 Estou fazendo este projeto para treinar minhas habilidades em programção Full Stack, neste projeto vou desenvolver um webapp inspirado no Discord, irei fazer com uma UI diferente baseada no tema da [CreArts](https://github.com/CreArts-Community/CreArts-Discord), já na parte do Backend irei criar a API em GoLang e o servidor Gateway em Elixir.
 
