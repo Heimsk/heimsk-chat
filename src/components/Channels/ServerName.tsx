@@ -9,7 +9,7 @@ export default class ServerName extends React.Component {
     return (
       <>
         <div id={styles.container}>
-          <span>Server Name</span>
+          <span>Meu servidor :)</span>
           <i>
             <FaChevronDown />
           </i>

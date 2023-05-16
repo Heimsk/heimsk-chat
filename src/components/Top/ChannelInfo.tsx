@@ -10,7 +10,7 @@ export default class RightBar extends React.Component {
           <i>
             <RiMessageFill />
           </i>
-          <span>Channel-Name</span>
+          <span>nome-do-canal</span>
         </div>
       </>
     );

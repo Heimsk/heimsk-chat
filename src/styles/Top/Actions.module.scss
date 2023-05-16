@@ -5,8 +5,40 @@
     border-radius: 14px;
     margin-left: 20px;
     transition: all 250ms;
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+    color: var(--gray);
 
-    &:hover {
-        min-width: 400px;
+    input {
+        width: calc(100% - 20px);
+        margin: 0 10px;
+        border-radius: 4px;
+        background-color: var(--tertiary);
+        outline: none;
+        border: none;
+        height: 25px;
+        font-size: 13px;
+        color: var(--gray);
+        padding: 0 5px;
+
+        &:focus {
+            color: white;
+        }
+    }
+
+    i {
+        display: flex;
+        align-items: center;
+        font-size: 20px;
+        cursor: pointer;
+
+        &:hover {
+            color: white;
+        }
+    }
+
+    &:focus-within {
+        min-width: 350px;
     }
 }

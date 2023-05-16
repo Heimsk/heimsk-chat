@@ -3,13 +3,17 @@ import styles from "@/styles/Top/Top.module.scss";
 import ChannelInfo from "./ChannelInfo";
 import Actions from "./Actions";
 
-export default class RightBar extends React.Component {
+interface IProps {
+  toggle: any;
+}
+
+export default class RightBar extends React.Component<IProps> {
   public render() {
     return (
       <>
         <div id={styles.container}>
           <ChannelInfo />
-          <Actions />
+          <Actions toggle={this.props.toggle} />
         </div>
       </>
     );

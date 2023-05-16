@@ -4,12 +4,28 @@ import Sidebar from "./Sidebar";
 import UserInfo from "./UserInfo";
 import Channels from "./Channels";
 import RightBar from "./RightBar";
-import Actions from "./Top/Actions";
 import Center from "./Center";
-import ChannelInfo from "./Top/ChannelInfo";
 import Top from "./Top";
 
-export default class Layout extends React.Component {
+interface IState {
+  usersClosed: boolean;
+}
+
+export default class Layout extends React.Component<{}, IState> {
+  public constructor(props: any) {
+    super(props);
+
+    this.state = {
+      usersClosed: false
+    }
+
+    this.toggleUsers = this.toggleUsers.bind(this);
+  }
+
+  public toggleUsers() {
+    this.setState({ usersClosed: !this.state.usersClosed });
+  }
+
   public render() {
     return (
       <>
@@ -22,10 +38,12 @@ export default class Layout extends React.Component {
                 <UserInfo />
               </div>
               <div className={styles.column}>
-                <Top />
+                <Top toggle={this.toggleUsers} />
                 <div className={styles.flex}>
                   <Center />
+                  {!this.state.usersClosed ? 
                   <RightBar />
+                  : ""}
                 </div>
               </div>
             </div>
