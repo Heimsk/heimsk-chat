@@ -26,6 +26,8 @@ NextJS, Typescript, SASS, GoLang (não implementado), Elixir (não implementado)
     - [ ] Página de DM
     - [ ] Página de amigos
     - [ ] Threads
+    - [ ] Tela de login
+    - [ ] Tela de registro
 
 - [ ] Backend
     - [ ] API
