@@ -10,7 +10,7 @@ export default class UserInfo extends React.Component {
             <div></div>
           </div>
           <div id={styles.infos}>
-            <span>Heimsk</span>
+            <span>Alguem</span>
             <small>#0000</small>
           </div>
         </div>
