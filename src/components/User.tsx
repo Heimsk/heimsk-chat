@@ -8,7 +8,7 @@ export default class User extends React.Component {
         <div id={styles.container}>
           <div className={styles.avatar}></div>
           <div className={styles.info}>
-            <span>Heimsk</span>
+            <span>Alguem</span>
             <small>
               O que não provoca minha morte, faz com que eu fique mais forte.
             </small>
