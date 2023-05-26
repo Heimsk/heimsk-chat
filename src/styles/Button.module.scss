@@ -1,43 +1,13 @@
-.button {
-    min-width: 43px;
-    min-height: 43px;
-    display: flex;
-    align-items: center;
-    background-color: var(--primary);
-    border-radius: 50%;
+#container {
+    padding: 8px 15px;
+    border-radius: 6px;
+    background-color: var(--discord);
     border: none;
     outline: none;
-    transition: all 250ms;
-    cursor: pointer;
-    margin-top: 10px;
-    position: relative;
-    color: darkgray;
+    display: flex;
     justify-content: center;
-    text-align: center;
-    text-transform: uppercase;
-    font-size: 18px;
-
-    &:hover, &.active {
-        border-radius: 12px;
-        background-color: var(--discord);
-        color: white;
-
-        &.notification::before {
-            content: '';
-            height: 50%;
-        }
-    }
-
-    &.notification::before {
-        content: '';
-        width: 6px;
-        height: 6px;
-        border-radius: 4px;
-        position: absolute;
-        top: 50%;
-        left: -25%;
-        transform: translateY(-50%);
-        background-color: white;
-        transition: all 250ms;
-    }
+    align-items: center;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
 }

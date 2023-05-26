@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "@/styles/SidebarStyles/Explore.module.scss";
-import Button from "../Button";
+import Button from "../ServerButton";
 
 // icons
 import { FaPlus, FaCompass } from "react-icons/fa";

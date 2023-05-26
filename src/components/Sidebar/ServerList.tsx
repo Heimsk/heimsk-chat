@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "@/styles/SidebarStyles/ServerList.module.scss";
-import Button from "../Button";
+import Button from "../ServerButton";
 
 export default class ServerList extends React.Component {
   public render() {
