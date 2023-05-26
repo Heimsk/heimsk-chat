@@ -19,6 +19,8 @@ NextJS, Typescript, SASS, GoLang (não implementado), Elixir (não implementado)
     - [x] Entrada
     - [x] Barra de pesquisa
     - [x] Lista de usuários
+    - [x] Tela de login
+    - [x] Tela de registro
     - [ ] Configuração do servidor
     - [ ] Pop-ups
     - [ ] Tooltips
@@ -26,8 +28,6 @@ NextJS, Typescript, SASS, GoLang (não implementado), Elixir (não implementado)
     - [ ] Página de DM
     - [ ] Página de amigos
     - [ ] Threads
-    - [ ] Tela de login
-    - [ ] Tela de registro
 
 - [ ] Backend
     - [ ] API
